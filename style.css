@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url(img/foodBackground.jpg);
+    background-image: url(foodBackground.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
