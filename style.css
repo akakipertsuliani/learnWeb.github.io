@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body {
+    background-image: url(img/foodBackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#CONTAINER {
+    background-color: rgba(255, 166, 0, 0.527);
+    width: 40%;
+    height: 70%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#INPUT-CONATINER {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    height: 30%;
+}
+
+.input-tag {
+    width: 100%;
+    height: 50px;
+    border: 2px solid green;
+    border-radius: 10px;
+    text-indent: 5%;
+    margin-block: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+#INPUT-BUTTON {
+    background-color: orange;
+    border: none;
+    text-indent: 0;
+    transition: 0.5s;
+}
+
+#INPUT-BUTTON:hover {
+    background-color: brown;
+    color: white;
+}
+
+#TEXT-CONTANER {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#TEXT {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: monospace;
+} 
+
+#NAVIGATION-TEXT {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+#NAVIGATION-TEXT:hover {
+    text-decoration: underline;
+}
+
